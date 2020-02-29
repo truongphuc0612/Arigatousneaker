@@ -1,0 +1,72 @@
+header>.head-top{
+    position: relative;
+    width: 100%;
+    height: 34px;
+    background-color:#fff;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+header>.head-top>.head-icon{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 80px;
+
+}
+
+header>.head-top>.head-icon>.logo{
+    position: absolute;
+    top: -30%;
+    left: 512px;
+
+}
+
+input[type="sreach"]{
+    position: absolute;
+    padding-right: 80px;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(252,252,252);
+    top: 10px;
+    left: 1030px;
+
+}
+input[type="image"]{
+    position: absolute;
+    top: 6px;
+    left: 1225px;
+}
+
+
+
+header>.head-menu{
+    position: relative;
+    background-color:#ccc;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+    height: 35px;
+
+}
+header>.head-menu>nav>ul>li{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+    
+}
+header>.head-menu>nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+    padding:0px 75px ;
+    margin-bottom: 5px;
+    font-weight: bolder;
+        
+}
+main>.title{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}

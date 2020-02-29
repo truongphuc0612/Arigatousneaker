@@ -1,0 +1,183 @@
+header>.head-top{
+    position: relative;
+    width: 100%;
+    height: 34px;
+    background-color:#fff;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+header>.head-top>.head-icon{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 80px;
+
+}
+
+header>.head-top>.head-icon>.logo{
+    position: absolute;
+    top: -30%;
+    left: 512px;
+
+}
+
+input[type="sreach"]{
+    position: absolute;
+    padding-right: 80px;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(252,252,252);
+    top: 10px;
+    left: 1030px;
+
+}
+input[type="image"]{
+    position: absolute;
+    top: 6px;
+    left: 1225px;
+}
+
+
+
+header>.head-menu{
+    position: relative;
+    background-color:#ccc;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+    height: 35px;
+
+}
+header>.head-menu>nav>ul>li{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+    
+}
+header>.head-menu>nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+    padding:0px 75px ;
+    margin-bottom: 5px;
+    font-weight: bolder;
+        
+}
+
+li:hover a {
+    text-decoration: none;
+}
+
+
+article{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.image{
+    align-items: center;
+}
+
+
+
+
+main>.column{ width:25%; float:left;}
+     .san-pham{ border-radius: 10px;
+      box-shadow: 0px 0px 5px gray;
+      padding: 5px;
+      margin: 10px;
+      text-align: center;}
+main>.column>.san-pham>.ten{
+    font-size: large
+    font-variant:x-small
+    color: red; }
+
+main>.column>.san-pham>.gia{
+    color: red;
+    font-weight: bold;
+    font-size: medium;}
+
+article>.column{ width:25%; float:left;}
+     .san-pham{ border-radius: 10px;
+      box-shadow: 0px 0px 5px gray;
+      padding: 5px;
+      margin: 10px;
+      text-align: center;}
+article>.column>.san-pham>.ten{
+    font-size: large
+    font-variant:x-small
+    color: red; }
+
+article>.column>.san-pham>.gia{
+    color: red;
+    font-weight: bold;
+    font-size: medium;}
+
+
+footer{
+            background-color:#ccc;
+            text-align:center;
+            padding:25px;
+            font-size:18px;
+        }
+
+.head-menu li a:hover{background-color: #DCDCDC;}
+
+/*FOOTER*/
+.Buy{
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+}
+.Buy p{
+    margin-top: 10px;
+    color: grey;
+    font-size: 13px
+;}
+
+.Sell{
+    width: 300px;
+    float: left;
+margin-left: 30px;
+}
+.Sell p{
+     margin-top: 10px;
+    color: grey;
+    font-size: 13px
+;}
+.Support{
+    WIDTH: 300PX;
+    FLOAT: LEFT;
+margin-left: 30px;
+}
+.Support p{
+    margin-top: 10px;
+    color: grey;
+    font-size: 13px;
+}
+.About{
+    WIDTH: 300PX;
+    FLOAT: LEFT;
+margin-left: 30px;
+}
+.About p{
+    margin-top: 10px;
+    color: grey;
+    font-size: 13px
+}
+.footer p:hover{color: #f7544a;}
+
+.link{
+background-color:#ccc;
+            width: 1325px;
+            height: 60px;
+            clear:left;
+            text-align:center;
+            color: black;
+            font-size:18px;
+            line-height: 60px;}
+
+ 
+     
